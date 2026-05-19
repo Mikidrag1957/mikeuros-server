@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: mikeuros-server
+    runtime: node
+    region: ohio
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && node server.js
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

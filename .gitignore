@@ -1,0 +1,8 @@
+node_modules/
+slot-machine-apk/android/
+slot-machine-apk/.gradle/
+slot-machine-apk/node_modules/
+server/data.json
+.DS_Store
+*.log
+.env
