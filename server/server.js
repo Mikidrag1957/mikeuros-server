@@ -1,3 +1,6 @@
+process.on('uncaughtException', (err) => { console.error('UNCAUGHT:', err); });
+process.on('unhandledRejection', (err) => { console.error('UNHANDLED:', err); });
+
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
@@ -8,7 +11,6 @@ const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, 'data.json');
 const ADMIN_PASS = '1234';
 
-// Data structure
 let data = { laBanca: 0, premios: 0, jugadores: [] };
 
 function loadData() {
@@ -28,14 +30,25 @@ function saveData() {
 
 loadData();
 
-// Keep a map of dni -> socketId for connected players
 const connectedPlayers = new Map();
 
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, { cors: { origin: '*' } });
 
-app.use(express.static(path.join(__dirname, '..', 'slot-machine-apk', 'www')));
+const wwwPath = path.join(__dirname, '..', 'slot-machine-apk', 'www');
+console.log('WWW path:', wwwPath);
+console.log('WWW exists:', fs.existsSync(wwwPath));
+app.use(express.static(wwwPath));
+
+app.get('/', (req, res) => {
+    const indexPath = path.join(wwwPath, 'index.html');
+    if (fs.existsSync(indexPath)) {
+        res.sendFile(indexPath);
+    } else {
+        res.send('<h1>MIKEUROS Server Running</h1><p>Static files not found at: ' + wwwPath + '</p>');
+    }
+});
 
 // Penalty/cost table
 function getCost(bonus) {

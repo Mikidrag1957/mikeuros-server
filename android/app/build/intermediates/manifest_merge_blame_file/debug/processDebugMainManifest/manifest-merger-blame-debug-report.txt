@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bingopro.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:7:5-66
+13-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:8:22-65
+15
+16    <permission
+16-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.bingopro.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.bingopro.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:10:5-33:19
+23        android:allowBackup="true"
+23-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.12.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\93f3ebffb38010a4c78bff956e1b2146\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+26-->INJECTED
+27        android:hardwareAccelerated="true"
+27-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:18:9-43
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:13:9-41
+30        android:networkSecurityConfig="@xml/network_security_config"
+30-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:16:9-69
+31        android:supportsRtl="true"
+31-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:14:9-35
+32        android:theme="@style/Theme.BingoPRO"
+32-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:15:9-46
+33        android:usesCleartextTraffic="true" >
+33-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:17:9-44
+34        <activity
+34-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:21:9-32:20
+35            android:name="com.bingopro.app.MainActivity"
+35-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:22:13-41
+36            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+36-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:24:13-87
+37            android:exported="true"
+37-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:23:13-36
+38            android:screenOrientation="fullSensor"
+38-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:25:13-51
+39            android:theme="@style/Theme.BingoPRO"
+39-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:27:13-50
+40            android:windowSoftInputMode="adjustResize" >
+40-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:26:13-55
+41            <intent-filter>
+41-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:28:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:29:17-69
+42-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:30:17-77
+44-->C:\Proyectos_IA\Proyectos\Bingo\android\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.bingopro.app.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\063f8c99405787f5a99a7ac729747064\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\42e2b12239955bebd02c2552639a2827\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\42e2b12239955bebd02c2552639a2827\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\42e2b12239955bebd02c2552639a2827\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+59-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+60                android:value="androidx.startup" />
+60-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+61        </provider>
+62
+63        <receiver
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+64            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+65            android:directBootAware="false"
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+66            android:enabled="true"
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+67            android:exported="true"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+68            android:permission="android.permission.DUMP" >
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+69            <intent-filter>
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+70                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+71            </intent-filter>
+72            <intent-filter>
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+73                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+74            </intent-filter>
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+76                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+79                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Proyectos_IA\Proyectos\hundir_la_flota_multi\mobile\android\.gradle\caches\9.4.1\transforms\e20a49443f3e39bbeb64387df0a2d923\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+80            </intent-filter>
+81        </receiver>
+82    </application>
+83
+84</manifest>
